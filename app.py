@@ -117,6 +117,7 @@ def upload_file_view():
 
             for i in lines:
                 resident_id = re.search('\d{18}|\d{15}', i['text'])
+                print(resident_id)
                 if resident_id:
                     code = resident_id.group()
                     print('Succeeded 身份证号：', code)

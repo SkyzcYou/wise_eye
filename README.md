@@ -1,3 +1,18 @@
+## Preview
+`Wise_Eye`是一个基于Python Flask 的身份证识别系统，完成了下面的功能：
+    1. 摄像头识别
+    2. 图片识别
+    3. 识别数据持久化 （MySQL5.7）
+
+! 注：该项目为代别人完成的毕业设计部分功能，身份证识别使用了 Azure 的 OCR 接口，
+因此该项目并未使用任何图像识别的算法，
+仅仅是使用了 Flask 来搭建了一个前后端的服务框架。
+
+![preview_img1](preview/preview_img1.png)
+![preview_img2](preview/preview_img2.png)
+![preview_img3](preview/preview_img3.png)
+
+
 ## Start
 1. 安装 venv 虚拟环境，并进入
 ```shell
